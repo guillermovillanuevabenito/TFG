@@ -1,0 +1,102 @@
+\chapter{Codes}
+\label{sec:appendix2}
+
+Schematic representation of the files used in each file. As an illustration, we show files for the STN-GPe-GPi-TC network and for computing 1-dimensional total-degenerated LSs on the connectivity parameter space (type-I heterogeneous networks).
+
+
+\begin{forest}
+  for tree={
+    font=\ttfamily,
+    grow'=0,
+    child anchor=west,
+    parent anchor=south,
+    anchor=west,
+    calign=first,
+    edge path={
+      \noexpand\path [draw, \forestoption{edge}]
+      (!u.south west) +(7.5pt,0) |- node[fill,inner sep=1.25pt] {} (.child anchor)\forestoption{edge label};
+    },
+    before typesetting nodes={
+      if n=1
+        {insert before={[,phantom]}}
+        {}
+    },
+    fit=band,
+    before computing xy={l=15pt},
+  }
+[\textbf{STN-GPe-GPi-TC Network}
+  [Network.m]
+  [f.m]
+]
+\end{forest}
+
+\begin{forest}
+  for tree={
+    font=\ttfamily,
+    grow'=0,
+    child anchor=west,
+    parent anchor=south,
+    anchor=west,
+    calign=first,
+    edge path={
+      \noexpand\path [draw, \forestoption{edge}]
+      (!u.south west) +(7.5pt,0) |- node[fill,inner sep=1.25pt] {} (.child anchor)\forestoption{edge label};
+    },
+    before typesetting nodes={
+      if n=1
+        {insert before={[,phantom]}}
+        {}
+    },
+    fit=band,
+    before computing xy={l=15pt},
+  }
+[\textbf{Total-degenerated LS on connectivity parameter space}
+  [Main\_LS2.m
+    [FindLevelSet.m
+        [biseccio\_iter.m]
+        [Selfpar.m
+            [Iter.m
+                [Traces2.m]
+                [Oscillation.m]
+            ]
+        ]
+        [Traces2.m]
+        [Oscillation.m]
+    ]
+    [f\_target.m
+        [Selfpar.m
+            [Iter.m
+                [Traces2.m]
+                [Oscillation.m]
+            ]
+        ]
+        [Traces2.m]
+        [Oscillation.m]
+    ]
+  ]
+]
+\end{forest}
+
+
+
+\lstinputlisting[language=Matlab, caption={\textbf{Network.m} }\label{lst1}]{doc/Network.m}
+
+\lstinputlisting[language=Matlab, caption={\textbf{f.m}}\label{lst2}]{doc/f.m}
+
+\lstinputlisting[language=Matlab, caption={\textbf{Oscillation.m}}\label{lst3}]{doc/Oscillation.m}
+
+%\lstinputlisting[language=Matlab, caption={\textbf{Traces.m}}\label{lst4}]{doc/Traces.m}
+
+\lstinputlisting[language=Matlab, caption={\textbf{Traces2.m}}\label{lst5}]{doc/Traces2.m}
+
+\lstinputlisting[language=Matlab, caption={\textbf{Main\_LS2.m}}\label{lst6}]{doc/Main_LS2.m}
+
+\lstinputlisting[language=Matlab, caption={\textbf{FindLevelSet.m}}\label{lst7}]{doc/FindLevelSet.m}
+
+\lstinputlisting[language=Matlab, caption={\textbf{f\_target.m}}\label{lst8}]{doc/f_target.m}
+
+\lstinputlisting[language=Matlab, caption={\textbf{Selfpar.m}}\label{lst9}]{doc/Selfpar.m}
+
+\lstinputlisting[language=Matlab, caption={\textbf{Iter.m}}\label{lst10}]{doc/Iter.m}
+
+\lstinputlisting[language=Matlab, caption={\textbf{biseccio\_iter.m}}\label{lst11}]{doc/biseccio_iter.m}

@@ -1,0 +1,78 @@
+% !TEX root = my-thesis.tex
+
+
+% **************************************************
+% Files' Character Encoding
+% **************************************************
+\PassOptionsToPackage{utf8}{inputenc}
+\usepackage{inputenc}
+\usepackage{amsthm,amsmath,amssymb,amsfonts,amscd}
+
+% **************************************************
+% Information and Commands for Reuse
+% **************************************************
+\newcommand{\thesisTitle}{Neuronal oscillations level sets for activity constancy: from single neurons to networks}
+\newcommand{\thesisName}{Guillermo Villanueva}
+\newcommand{\thesisSubject}{Bachelor's Degree Thesis}
+\newcommand{\thesisDate}{July 2, 2021}
+\newcommand{\thesisVersion}{My First Draft}
+
+\newcommand{\thesisFirstReviewer}{Jane Doe}
+\newcommand{\thesisFirstReviewerUniversity}{\protect{Clean Thesis Style University}}
+\newcommand{\thesisFirstReviewerDepartment}{Department of Clean Thesis Style}
+
+\newcommand{\thesisSecondReviewer}{John Doe}
+\newcommand{\thesisSecondReviewerUniversity}{\protect{Clean Thesis Style University}}
+\newcommand{\thesisSecondReviewerDepartment}{Department of Clean Thesis Style}
+
+\newcommand{\thesisFirstSupervisor}{Horacio G. Rotstein}
+\newcommand{\thesisSecondSupervisor}{Antoni Guillamon Grabolosa}
+
+\newcommand{\thesisUniversity}{\protect{Universitat Polit\`ecnica de Catalunya}}
+\newcommand{\thesisUniversityDepartment}{Degree in Mathematics}
+\newcommand{\thesisUniversityInstitute}{Degree in Engineering Physics}
+\newcommand{\thesisUniversityGroup}{Clean Thesis Group (CTG)}
+\newcommand{\thesisUniversityCity}{City}
+\newcommand{\thesisUniversityStreetAddress}{Street address}
+\newcommand{\thesisUniversityPostalCode}{Postal Code}
+
+
+% **************************************************
+% Debug LaTeX Information
+% **************************************************
+%\listfiles
+
+
+% **************************************************
+% Load and Configure Packages
+% **************************************************
+\usepackage[english]{babel} % babel system, adjust the language of the content
+
+\PassOptionsToPackage{% setup clean thesis style
+    figuresep=colon,%
+    hangfigurecaption=false,%
+    hangsection=true,%
+    hangsubsection=true,%
+    sansserif=false,%
+    configurelistings=true,%
+    colorize=full,%
+    colortheme=bluemagenta,%
+    configurebiblatex=true,%
+    bibsys=bibtex,%
+    bibfile=bib-refs,%
+    bibstyle=numeric,%
+    bibsorting=nty,%
+}{cleanthesis}
+\usepackage{cleanthesis}
+
+\hypersetup{% setup the hyperref-package options
+    pdftitle={\thesisTitle},    %   - title (PDF meta)
+    pdfsubject={\thesisSubject},%   - subject (PDF meta)
+    pdfauthor={\thesisName},    %   - author (PDF meta)
+    plainpages=false,           %   -
+    colorlinks=false,           %   - colorize links?
+    pdfborder={0 0 0},          %   -
+    breaklinks=true,            %   - allow line break inside links
+    bookmarksnumbered=true,     %
+    bookmarksopen=true          %
+}
