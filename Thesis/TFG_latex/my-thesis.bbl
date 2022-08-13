@@ -1,0 +1,293 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nty/global//global/global}
+  \entry{Astrid}{article}{}
+    \name{author}{1}{}{%
+      {{hash=APA}{%
+         family={A.},
+         familyi={A\bibinitperiod},
+         given={Prinz\bibnamedelima A.},
+         giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{APA1}
+    \strng{fullhash}{APA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{title}{{Stability and plasticity in neuronal and network dynamics }}
+    \field{journaltitle}{Computational Neuroscience in Epilepsy. Elsevier.}
+    \field{year}{2008}
+  \endentry
+
+  \entry{Khorkova8709}{article}{}
+    \name{author}{2}{}{%
+      {{hash=KO}{%
+         family={Khorkova},
+         familyi={K\bibinitperiod},
+         given={Olga},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=GJ}{%
+         family={Golowasch},
+         familyi={G\bibinitperiod},
+         given={Jorge},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Society for Neuroscience}%
+    }
+    \strng{namehash}{KOGJ1}
+    \strng{fullhash}{KOGJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \verb{doi}
+    \verb 10.1523/JNEUROSCI.1274-07.2007
+    \endverb
+    \verb{eprint}
+    \verb https://www.jneurosci.org/content/27/32/8709.full.pdf
+    \endverb
+    \field{issn}{0270-6474}
+    \field{number}{32}
+    \field{pages}{8709\bibrangedash 8718}
+    \field{title}{Neuromodulators, Not Activity, Control Coordinated Expression
+  of Ionic Currents}
+    \verb{url}
+    \verb https://www.jneurosci.org/content/27/32/8709
+    \endverb
+    \field{volume}{27}
+    \field{journaltitle}{Journal of Neuroscience}
+    \field{year}{2007}
+  \endentry
+
+  \entry{Oly}{article}{}
+    \name{author}{2}{}{%
+      {{hash=OAV}{%
+         family={Olypher},
+         familyi={O\bibinitperiod},
+         given={Andrey\bibnamedelima V.},
+         giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=CRL}{%
+         family={Calabrese},
+         familyi={C\bibinitperiod},
+         given={Ronald\bibnamedelima L.},
+         giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{OAVCRL1}
+    \strng{fullhash}{OAVCRL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \verb{doi}
+    \verb 10.1152/jn.00842.2007
+    \endverb
+    \field{note}{PMID: 17855581}
+    \field{number}{6}
+    \field{pages}{3749\bibrangedash 3758}
+    \field{title}{Using Constraints on Neuronal Activity to Reveal Compensatory
+  Changes in Neuronal Parameters}
+    \field{volume}{98}
+    \field{journaltitle}{Journal of Neurophysiology}
+    \field{year}{2007}
+  \endentry
+
+  \entry{Olypher2010}{article}{}
+    \name{author}{2}{}{%
+      {{hash=OAV}{%
+         family={Olypher},
+         familyi={O\bibinitperiod},
+         given={Andrey\bibnamedelima V},
+         giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=PAA}{%
+         family={Prinz},
+         familyi={P\bibinitperiod},
+         given={Astrid\bibnamedelima A},
+         giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{OAVPAA1}
+    \strng{fullhash}{OAVPAA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \verb{doi}
+    \verb 10.1007/s10827-010-0213-z
+    \endverb
+    \field{issn}{1573-6873}
+    \field{number}{3}
+    \field{pages}{361\bibrangedash 374}
+    \field{title}{{Geometry and dynamics of activity-dependent homeostatic
+  regulation in neurons}}
+    \field{volume}{28}
+    \field{journaltitle}{Journal of Computational Neuroscience}
+    \field{year}{2010}
+  \endentry
+
+  \entry{Prinz}{book}{}
+    \name{author}{2}{}{%
+      {{hash=PBDAA}{%
+         family={Prinz},
+         familyi={P\bibinitperiod},
+         suffix={A.\bibnamedelima A.},
+         suffixi={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+         given={Bucher\bibnamedelima D.},
+         giveni={B\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=M}{%
+         family={Marder},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PAABDM1}
+    \strng{fullhash}{PAABDM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{title}{{Similar network activity from disparate circuit parameters}}
+    \field{year}{2004}
+  \endentry
+
+  \entry{Rot}{article}{}
+    \name{author}{2}{}{%
+      {{hash=ROMHG}{%
+         family={Rotstein},
+         familyi={R\bibinitperiod},
+         suffix={H.\bibnamedelima G.},
+         suffixi={H\bibinitperiod\bibinitdelim G\bibinitperiod},
+         given={Olarinre\bibnamedelima M.},
+         giveni={O\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=GJ}{%
+         family={Golowasch},
+         familyi={G\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RHGOMGJ1}
+    \strng{fullhash}{RHGOMGJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{number}{116}
+    \field{pages}{2431\bibrangedash 2452}
+    \field{title}{{Dynamic compensatory mechanism give rise to period and duty
+  cycle level sets in oscillatory neuronal models}}
+    \field{journaltitle}{J. Neurophysiol}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Schulz2006}{article}{}
+    \name{author}{3}{}{%
+      {{hash=SDJ}{%
+         family={Schulz},
+         familyi={S\bibinitperiod},
+         given={David\bibnamedelima J},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=GJM}{%
+         family={Goaillard},
+         familyi={G\bibinitperiod},
+         given={Jean-Marc},
+         giveni={J\bibinitperiod-M\bibinitperiod},
+      }}%
+      {{hash=ME}{%
+         family={Marder},
+         familyi={M\bibinitperiod},
+         given={Eve},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SDJ+1}
+    \strng{fullhash}{SDJGJMME1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{doi}
+    \verb 10.1038/nn1639
+    \endverb
+    \field{issn}{1546-1726}
+    \field{number}{3}
+    \field{pages}{356\bibrangedash 362}
+    \field{title}{{Variable channel expression in identified single and
+  electrically coupled neurons in different animals}}
+    \verb{url}
+    \verb https://doi.org/10.1038/nn1639
+    \endverb
+    \field{volume}{9}
+    \field{journaltitle}{Nature Neuroscience}
+    \field{year}{2006}
+  \endentry
+
+  \entry{Swensen3509}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SAM}{%
+         family={Swensen},
+         familyi={S\bibinitperiod},
+         given={Andrew\bibnamedelima M.},
+         giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=BBP}{%
+         family={Bean},
+         familyi={B\bibinitperiod},
+         given={Bruce\bibnamedelima P.},
+         giveni={B\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Society for Neuroscience}%
+    }
+    \strng{namehash}{SAMBBP1}
+    \strng{fullhash}{SAMBBP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{doi}
+    \verb 10.1523/JNEUROSCI.3929-04.2005
+    \endverb
+    \verb{eprint}
+    \verb https://www.jneurosci.org/content/25/14/3509.full.pdf
+    \endverb
+    \field{issn}{0270-6474}
+    \field{number}{14}
+    \field{pages}{3509\bibrangedash 3520}
+    \field{title}{Robustness of Burst Firing in Dissociated Purkinje Neurons
+  with Acute or Long-Term Reductions in Sodium Conductance}
+    \verb{url}
+    \verb https://www.jneurosci.org/content/25/14/3509
+    \endverb
+    \field{volume}{25}
+    \field{journaltitle}{Journal of Neuroscience}
+    \field{year}{2005}
+  \endentry
+\enddatalist
+\endinput
